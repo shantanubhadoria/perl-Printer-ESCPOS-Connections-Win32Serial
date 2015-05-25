@@ -1,7 +1,7 @@
 NAME
 
     Printer::ESCPOS::Connections::Serial - Serial Connection Interface for
-    Printer::ESCPOS (supports status commands)
+    Printer::ESCPOS on Windows using Win32::SerialPort
 
 VERSION
 

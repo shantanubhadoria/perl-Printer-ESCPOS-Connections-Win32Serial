@@ -4,7 +4,7 @@ use warnings;
 package Printer::ESCPOS::Connections::Win32Serial;
 
 # PODNAME: Printer::ESCPOS::Connections::Serial
-# ABSTRACT: Serial Connection Interface for L<Printer::ESCPOS> (supports status commands)
+# ABSTRACT: Serial Connection Interface for L<Printer::ESCPOS> on Windows using L<Win32::SerialPort>
 #
 # This file is part of Printer-ESCPOS-Connections-Win32Serial
 #
@@ -123,7 +123,7 @@ __END__
 
 =head1 NAME
 
-Printer::ESCPOS::Connections::Serial - Serial Connection Interface for L<Printer::ESCPOS> (supports status commands)
+Printer::ESCPOS::Connections::Serial - Serial Connection Interface for L<Printer::ESCPOS> on Windows using L<Win32::SerialPort>
 
 =head1 VERSION
 

@@ -1,5 +1,5 @@
 {
-   "abstract" : "Serial Connection Interface for L<Printer::ESCPOS> (supports status commands)",
+   "abstract" : "Serial Connection Interface for L<Printer::ESCPOS> on Windows using L<Win32::SerialPort>",
    "author" : [
       "Shantanu Bhadoria <shantanu@cpan.org> L<https://www.shantanubhadoria.com>"
    ],

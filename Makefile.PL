@@ -9,7 +9,7 @@ use 5.010;
 use ExtUtils::MakeMaker;
 
 my %WriteMakefileArgs = (
-  "ABSTRACT" => "Serial Connection Interface for L<Printer::ESCPOS> (supports status commands)",
+  "ABSTRACT" => "Serial Connection Interface for L<Printer::ESCPOS> on Windows using L<Win32::SerialPort>",
   "AUTHOR" => "Shantanu Bhadoria <shantanu\@cpan.org> L<https://www.shantanubhadoria.com>",
   "CONFIGURE_REQUIRES" => {
     "ExtUtils::MakeMaker" => 0
