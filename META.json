@@ -1,0 +1,95 @@
+{
+   "abstract" : "Serial Connection Interface for L<Printer::ESCPOS> (supports status commands)",
+   "author" : [
+      "Shantanu Bhadoria <shantanu@cpan.org> L<https://www.shantanubhadoria.com>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Dist::Zilla version 5.034, CPAN::Meta::Converter version 2.150001",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Printer-ESCPOS-Connections-Win32Serial",
+   "no_index" : {
+      "directory" : [
+         "t",
+         "xt",
+         "examples",
+         "corpus",
+         "inc"
+      ],
+      "package" : [
+         "DB"
+      ]
+   },
+   "prereqs" : {
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "0",
+            "perl" : "5.010"
+         }
+      },
+      "develop" : {
+         "requires" : {
+            "Pod::Coverage::TrustPod" : "0",
+            "Test::CPAN::Meta" : "0",
+            "Test::More" : "0",
+            "Test::Pod" : "1.41",
+            "Test::Pod::Coverage" : "1.08",
+            "Test::Spelling" : "0.12",
+            "Test::Version" : "1"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Moo" : "0",
+            "Printer::ESCPOS::Roles::Connection" : "0",
+            "Time::HiRes" : "0",
+            "Win32::SerialPort" : "0",
+            "perl" : "5.010",
+            "strict" : "0",
+            "warnings" : "0"
+         }
+      },
+      "test" : {
+         "recommends" : {
+            "CPAN::Meta" : "2.120900"
+         },
+         "requires" : {
+            "ExtUtils::MakeMaker" : "0",
+            "File::Spec" : "0",
+            "File::Temp" : "0",
+            "IO::Handle" : "0",
+            "IPC::Open3" : "0",
+            "Test::More" : "0",
+            "perl" : "5.010"
+         }
+      }
+   },
+   "provides" : {
+      "Printer::ESCPOS::Connections::Win32Serial" : {
+         "file" : "lib/Printer/ESCPOS/Connections/Win32Serial.pm",
+         "version" : "0.001"
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/shantanubhadoria/perl-printer-escpos-connections-win32serial/issues"
+      },
+      "homepage" : "https://metacpan.org/release/Printer-ESCPOS-Connections-Win32Serial",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/shantanubhadoria/perl-printer-escpos-connections-win32serial.git",
+         "web" : "https://github.com/shantanubhadoria/perl-printer-escpos-connections-win32serial"
+      }
+   },
+   "version" : "0.001",
+   "x_contributors" : [
+      "Shantanu Bhadoria <shantanu@cpan.org>"
+   ]
+}
+

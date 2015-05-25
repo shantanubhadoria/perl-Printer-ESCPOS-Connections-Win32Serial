@@ -1,0 +1,50 @@
+---
+abstract: 'Serial Connection Interface for L<Printer::ESCPOS> (supports status commands)'
+author:
+  - 'Shantanu Bhadoria <shantanu@cpan.org> L<https://www.shantanubhadoria.com>'
+build_requires:
+  ExtUtils::MakeMaker: 0
+  File::Spec: 0
+  File::Temp: 0
+  IO::Handle: 0
+  IPC::Open3: 0
+  Test::More: 0
+  perl: 5.010
+configure_requires:
+  ExtUtils::MakeMaker: 0
+  perl: 5.010
+dynamic_config: 0
+generated_by: 'Dist::Zilla version 5.034, CPAN::Meta::Converter version 2.150001'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Printer-ESCPOS-Connections-Win32Serial
+no_index:
+  directory:
+    - t
+    - xt
+    - examples
+    - corpus
+    - inc
+  package:
+    - DB
+provides:
+  Printer::ESCPOS::Connections::Win32Serial:
+    file: lib/Printer/ESCPOS/Connections/Win32Serial.pm
+    version: 0.001
+requires:
+  Moo: 0
+  Printer::ESCPOS::Roles::Connection: 0
+  Time::HiRes: 0
+  Win32::SerialPort: 0
+  perl: 5.010
+  strict: 0
+  warnings: 0
+resources:
+  bugtracker: https://github.com/shantanubhadoria/perl-printer-escpos-connections-win32serial/issues
+  homepage: https://metacpan.org/release/Printer-ESCPOS-Connections-Win32Serial
+  repository: git://github.com/shantanubhadoria/perl-printer-escpos-connections-win32serial.git
+version: 0.001
+x_contributors:
+  - 'Shantanu Bhadoria <shantanu@cpan.org>'
