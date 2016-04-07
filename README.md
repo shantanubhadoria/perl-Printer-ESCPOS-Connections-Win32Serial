@@ -2,6 +2,16 @@
 
 Printer::ESCPOS::Connections::Serial - Serial Connection Interface for [Printer::ESCPOS](https://metacpan.org/pod/Printer::ESCPOS) on Windows using [Win32::SerialPort](https://metacpan.org/pod/Win32::SerialPort)
 
+<div>
+    <p>
+    <img src="https://img.shields.io/badge/perl-5.10+-brightgreen.svg" alt="Requires Perl 5.10+" />
+    <a href="https://travis-ci.org/shantanubhadoria/perl-Printer-ESCPOS-Connections-Win32Serial"><img src="https://api.travis-ci.org/shantanubhadoria/perl-Printer-ESCPOS-Connections-Win32Serial.svg?branch=build/master" alt="Travis status" /></a>
+    <a href="http://matrix.cpantesters.org/?dist=Printer-ESCPOS-Connections-Win32Serial%200.001"><img src="https://badgedepot.code301.com/badge/cpantesters/Printer-ESCPOS-Connections-Win32Serial/0.001" alt="CPAN Testers result" /></a>
+    <a href="http://cpants.cpanauthors.org/dist/Printer-ESCPOS-Connections-Win32Serial-0.001"><img src="https://badgedepot.code301.com/badge/kwalitee/Printer-ESCPOS-Connections-Win32Serial/0.001" alt="Distribution kwalitee" /></a>
+    <a href="https://gratipay.com/shantanubhadoria"><img src="https://img.shields.io/gratipay/shantanubhadoria.svg" alt="Gratipay" /></a>
+    </p>
+</div>
+
 # VERSION
 
 version 0.001
@@ -59,13 +69,9 @@ public review and contribution under the terms of the license.
 
 Shantanu Bhadoria <shantanu@cpan.org> [https://www.shantanubhadoria.com](https://www.shantanubhadoria.com)
 
-# CONTRIBUTOR
-
-Shantanu Bhadoria <shantanu@cpan.org>
-
 # COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2015 by Shantanu Bhadoria.
+This software is copyright (c) 2016 by Shantanu Bhadoria.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
