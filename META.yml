@@ -9,12 +9,13 @@ build_requires:
   IO::Handle: 0
   IPC::Open3: 0
   Test::More: 0
+  blib: 1.01
   perl: 5.010
 configure_requires:
   ExtUtils::MakeMaker: 0
   perl: 5.010
 dynamic_config: 0
-generated_by: 'Dist::Zilla version 5.034, CPAN::Meta::Converter version 2.150001'
+generated_by: 'Dist::Zilla version 5.043, CPAN::Meta::Converter version 2.150005'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -22,11 +23,11 @@ meta-spec:
 name: Printer-ESCPOS-Connections-Win32Serial
 no_index:
   directory:
+    - corpus
+    - examples
+    - inc
     - t
     - xt
-    - examples
-    - corpus
-    - inc
   package:
     - DB
 provides:
@@ -46,5 +47,3 @@ resources:
   homepage: https://metacpan.org/release/Printer-ESCPOS-Connections-Win32Serial
   repository: git://github.com/shantanubhadoria/perl-printer-escpos-connections-win32serial.git
 version: 0.001
-x_contributors:
-  - 'Shantanu Bhadoria <shantanu@cpan.org>'
